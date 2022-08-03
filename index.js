@@ -1,7 +1,8 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
-const inquirer = require('inquirer')
-const generateReadme = require('./utils/generateMarkdown')
+const util = require("util");
+const inquirer = require('inquirer');
+const generateReadme = require('./utils/generateMarkdown');
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // TODO: Create an array of questions for user input
@@ -55,13 +56,18 @@ function promptUser(){
     ]);
 }
 
+// asynchronous node.js util.promisify function
+async function init() {
+    try {
+        //ask questions, get responses
+        const data = await promptUser();
+        const generateContent = generateReadme(data);
+        //write new README file to the dist folder
+        await writeFileAsync('./dist/README.md', generateContent);
+        console.log('Successfully wrote README.md.  Look in dist folder to view');
+    }   catch(err) {
+        console.log(err);
+    }
+}
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-function init() {}
-
-// Function call to initialize app
 init();

@@ -44,7 +44,7 @@ function generateMarkdown(data) {
 
   ## Questions
   ${data.questions}
-  Reach out with any questions you may have to: ${answers.email}
+  Reach out with any questions you may have to: ${data.email}
 
   ## License
   This applicatinos uses the ${data.license} license.
