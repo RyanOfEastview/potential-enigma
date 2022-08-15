@@ -2,10 +2,10 @@
   
   # Group4 Music Finder
 
-  ![badge](https://img.shields.io/badge/license-Mozilla-brightgreen)<br />
+  ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
   ## Description
-    An application that shows you the tour dates of a desired artist, group.
+    Find live music acts
 
   ## Table of Contents
     - [Description](#description)
@@ -17,10 +17,10 @@
     - [License](#license)
 
   ## Installation
-  Not applicable, but thank you for asking.
+  Not Applicable
 
   ## Usage
-  To show someone where they can catch their favourite musical act.  Live!
+  It allows you to find your favourite musical acts to see when they might be touring near you.
 
   ## Contributions
   undefined
@@ -33,5 +33,5 @@
   Reach out with any questions you may have to: RyanMcCarthy613@gmail.com
 
   ## License
-  This applicatinos uses the Mozilla license.
+  This applicatinos uses the MIT license.
 
