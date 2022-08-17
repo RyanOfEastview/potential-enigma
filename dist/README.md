@@ -1,6 +1,8 @@
 
-  
-  # Group4 Music Finder
+ GitHub Repo: https://github.com/RyanOfEastview/potential-enigma/tree/develop 
+ 
+ 
+ # Group4 Music Finder
 
   ![badge](https://img.shields.io/badge/license-MIT-brightgreen)<br />
 
