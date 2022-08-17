@@ -9,3 +9,5 @@ In the command terminal, simply run the program by typing 'node index'.
 This will prompt you with questions related to the project.  Upon completion, the user is prompted with a message stating where they can find their newly generated README.md file.
 
 There are some issues to work out with this application still.  Work in progress.
+
+GitHub Repo: https://github.com/RyanOfEastview/potential-enigma/tree/develop
